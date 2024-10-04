@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <script defer src="scripts/script.js"></script>
+    <title>Cart</title>
+  </head>
+  <body>
+    <header class="py-3 border-bottom">
+      <nav class="d-flex container-fluid justify-content-between align-content-center">
+        <a href="index.html">
+          <img src="./images/logoipsum-220.svg" alt="" />
+        </a>
+
+        <div class="input-group w-50">
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Search for Product"
+            aria-label="Search for Product"
+            aria-describedby="basic-addon2"
+          />
+          <span class="input-group-text" id="basic-addon2">
+            <i class="bi bi-search"></i>
+          </span>
+        </div>
+
+        <ul class="navbar-nav sidebars">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu text-center">
+              <li><a class="dropdown-item" href="index.html">Home</a></li>
+              <li><a class="dropdown-item" href="signin.html">Sign In</a></li>
+              <li><a class="dropdown-item" href="product.html">Shop</a></li>
+              <li>
+                <a class="dropdown-item" href="cart.html"><i class="bi bi-cart"></i></a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="profile.html"><i class="bi bi-person-circle"></i></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="nav nav-underline align-content-center regular">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <!-- <li class="nav-item">
+              <a class="nav-link" href="signup.html">Sign Up</a>
+            </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="signin.html">Sign In</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Shop</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="cart.html">
+              <i class="bi bi-cart rounded-5"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container min-vh-100 my-2 d-flex justify-content-center align-items-center">
+      <div class="col-4 border px-3 py-3 w-100">
+        <h4 class="d-flex justify-content-between align-items-center">
+          <span class="">Order Summary</span>
+          <span class="btn btn-primary">Items: 3</span>
+        </h4>
+
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between">
+            <div>
+              <div>
+                <img src="./images/mgs-standard-1718047022955.webp" class="w-100" alt="" />
+              </div>
+            </div>
+            <div class="text-end">
+              <h6>METAL GEAR SOLID Δ: SNAKE EATER</h6>
+              <p class="text-muted">Brief Description</p>
+              <p class="text-muted">$69.99</p>
+            </div>
+            <!-- <span class="text-muted">$300</span>
+         -->
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <div>
+              <div>
+                <img src="./images/-1_Mirrorless_Camera_Brand.jpg" class="w-25" alt="" />
+              </div>
+            </div>
+            <div class="text-end">
+              <h6>Sony Camera</h6>
+              <p class="text-muted">Brief Description</p>
+              <p class="text-muted">$200</p>
+            </div>
+            <!-- <span class="text-muted">$300</span>
+         -->
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between">
+            <div>
+              <div>
+                <img src="./images/ItemImage-970011-q5xf4v-dl6czs-filo1r.jpg" class="w-25" alt="" />
+              </div>
+            </div>
+            <div class="text-end">
+              <h6>Wiley Wallaby: Classic Red</h6>
+              <p class="text-muted">Brief Description</p>
+              <p class="text-muted">$10</p>
+            </div>
+            <!-- <span class="text-muted">$300</span>
+         -->
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between">
+            <div>
+              <h6>Total</h6>
+              <span class="text-muted">Brief Description</span>
+            </div>
+            <span class="text-muted">$279.99</span>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <a href="checkout.html" class="btn btn-primary rounded mt-3">Proceed to Checkout</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-black mt-auto py-3">
+      <div class="container">
+        <div class="row d-flex justify-content-evenly w-100">
+          <div class="col">
+            <h5 class="border-bottom text-white">Company</h5>
+            <ul class="text-white list-unstyled">
+              <li>About Us</li>
+              <li>Our Services</li>
+              <li>Privacy Policy</li>
+              <li>Membership Program</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5 class="border-bottom text-white">Get Help</h5>
+            <ul class="text-white list-unstyled">
+              <li>FAQs</li>
+              <li>Shipping</li>
+              <li>Return Policy</li>
+              <li>Payment options</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5 class="border-bottom text-white">The Shop</h5>
+            <ul class="text-white list-unstyled">
+              <li>Games</li>
+              <li>Tech</li>
+              <li>Clothes</li>
+              <li>Snacks</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5 class="border-bottom text-white">Follow Us</h5>
+            <ul class="text-white d-flex justify-content-evenly list-unstyled">
+              <li>
+                <i class="bi bi-google h4"></i>
+              </li>
+              <li>
+                <i class="bi bi-linkedin h4"></i>
+              </li>
+              <li>
+                <i class="bi bi-instagram h4"></i>
+              </li>
+              <li>
+                <i class="bi bi-twitter h4"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container text-center">
+          <!-- <p class="display-5 pt-3">Lorem Ipsum</p> -->
+          <small class="text-white-50">&copy;Lorem Ipsum</small>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

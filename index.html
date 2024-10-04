@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <script defer src="./scripts/script.js"></script>
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- <div class="spinner-wrapper">
+      <div class="spinner-border text-primary">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div> -->
+
+    <header class="py-3 border-bottom">
+      <nav class="d-flex container-fluid justify-content-between align-content-center">
+        <a href="index.html">
+          <img src="./images/logoipsum-220.svg" alt="" />
+        </a>
+
+        <div class="input-group w-50">
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Search for Product"
+            aria-label="Search for Product"
+            aria-describedby="basic-addon2"
+          />
+          <span class="input-group-text" id="basic-addon2">
+            <i class="bi bi-search"></i>
+          </span>
+        </div>
+
+        <ul class="navbar-nav sidebars">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu text-center">
+              <li><a class="dropdown-item" href="index.html">Home</a></li>
+              <li><a class="dropdown-item" href="signin.html">Sign In</a></li>
+              <li><a class="dropdown-item" href="product.html">Shop</a></li>
+              <li>
+                <a class="dropdown-item" href="cart.html"><i class="bi bi-cart"></i></a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="profile.html"><i class="bi bi-person-circle"></i></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="nav nav-underline align-content-center regular">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signin.html">Sign In</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Shop</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">
+              <i class="bi bi-cart rounded-5"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main my-2">
+      <div id="carouselExampleControls" class="carousel slide container-fluid" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+        </div>
+
+        <div class="carousel-inner angles">
+          <div class="carousel-item active c-item">
+            <img src="images/mgs1920x1080.jpeg" class="d-block w-100 c-image" alt="..." />
+            <div class="carousel-caption d-md-block d-sm-block">
+              <h5>METAL GEAR SOLID Δ: SNAKE EATER</h5>
+              <p>Witness the origins of Big Boss</p>
+              <a class="btn btn-primary rounded-5" href="productview.html">Learn More</a>
+              <button class="btn btn-secondary rounded-5">Buy</button>
+            </div>
+          </div>
+
+          <div class="carousel-item c-item">
+            <img src="./images/electronic-arts-games.jpg" class="d-block w-100 c-image" alt="" />
+            <div class="carousel-caption d-md-block d-sm-block">
+              <h5>Electronic Arts Fall Sale</h5>
+              <p>Leaves arn't the only things dropping</p>
+              <a class="btn btn-primary rounded-5" href="ea.html">Learn More</a>
+            </div>
+          </div>
+
+          <div class="carousel-item c-item">
+            <img src="./images/Editorial-Featured-Image_Vintage_Clothing.jpg" class="d-block w-100 c-image" alt="" />
+            <div class="carousel-caption d-md-block d-sm-block">
+              <h5>Fall 2024</h5>
+              <p>Outfits for the Season</p>
+              <a class="btn btn-primary rounded-5" href="#">Learn More</a>
+            </div>
+          </div>
+
+          <div class="carousel-item c-item">
+            <img src="./images/l46820231016111429.webp" class="d-block w-100 c-image" alt="" />
+            <div class="carousel-caption d-md-block d-sm-block">
+              <h5>MacBook Air</h5>
+              <p>The Next Generation of Apple Laptops</p>
+              <a class="btn btn-primary rounded-5" href="#">Learn More</a>
+              <button class="btn btn-secondary rounded-5">Buy</button>
+            </div>
+          </div>
+
+          <div class="carousel-item c-item">
+            <img src="./images/JW10_EventsBg_1920x1080.jpg.avif" class="d-block w-100 c-image" alt="" />
+            <div class="carousel-caption d-md-block d-sm-block">
+              <h5>John Wick Chapter 1</h5>
+              <p>Coming back to theaters for its 10th anniversary</p>
+              <a class="btn btn-primary rounded-5" href="">Learn More</a>
+              <button class="btn btn-secondary rounded-5">Buy Tickets</button>
+            </div>
+          </div>
+
+          <div class="carousel-item c-item">
+            <img src="./images/poppi_lead.jpg" class="d-block w-100 c-image" alt="" />
+            <div class="carousel-caption d-md-block d-sm-block">
+              <h5>Poppi Soda</h5>
+              <p>Modernizing Soda with Apple Cide Vinegar</p>
+              <a class="btn btn-primary rounded-5" href="">More Info</a>
+              <button class="btn btn-secondary rounded-5">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container d-flex justify-content-center gap-2 flex-wrap border bg-body-tertiary mt-2 py-3">
+        <!-- <div>
+            <h3 class="text-center">Trending Products of the Month</h3>
+        </div> -->
+
+        <div class="card">
+          <img class="img-fluid" src="images/thumbnail/TfmSqePMVgeZPDHP2RSn5fDaj0GYI1gj1hNw-eiL0eU.webp" alt="" />
+          <div class="card-body">
+            <div>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              <span>(5041)</span>
+            </div>
+            <h4>Playstation 5: Disk Version</h4>
+            <small class="mb-5">Ubisoft Entertainment</small>
+            <p class="text-decoration-line-through text-secondary">$20</p>
+            <p class="">$10</p>
+            <div class="d-flex justify-content-center gap-2">
+              <button class="btn btn-primary" id="liveToastBtn">Add to Cart</button>
+              <button class="btn btn-secondary" id="off">Buy Now</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+              <i class="bi bi-arrow-up-right"></i> Ranked #<span class="text-primary">1</span> Purchased by 5000+
+              users</small
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="img-fluid" src="images/thumbnail/f7759371-ffd8-429c-b858-e3e3242fa547.jpg" alt="" />
+          <div class="card-body">
+            <div>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              <span>(5041)</span>
+            </div>
+            <h4>Assassin's Creed: Shadows</h4>
+            <small class="mb-5">Ubisoft Entertainment</small>
+            <p class="text-decoration-line-through text-secondary">$20</p>
+            <p class="">$10</p>
+            <div class="d-flex justify-content-center gap-2">
+              <button class="btn btn-primary" id="liveToastBtn1">Add to Cart</button>
+              <button class="btn btn-secondary" id="off1">Buy Now</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"
+              ><i class="bi bi-arrow-up-right"></i>Ranked #<span class="text-warning">2</span>: Purchased by 4000+
+              users</small
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="img-fluid" src="images/thumbnail/iPhone-16.jpg" alt="" />
+          <div class="card-body">
+            <div>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              <span>(5041)</span>
+            </div>
+            <h4>Iphone 16 Pro Max: T-Mobile</h4>
+            <small class="mb-5">Apple</small>
+            <p class="text-decoration-line-through text-secondary">$20</p>
+            <p class="">$10</p>
+            <div class="d-flex justify-content-center gap-2">
+              <button class="btn btn-primary" id="liveToastBtn2">Add to Cart</button>
+              <button class="btn btn-secondary" id="off2">Buy Now</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"
+              ><i class="bi bi-arrow-up-right"></i>Ranked #<span class="text-danger">3</span>: Purchased by 3000+
+              users</small
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="img-fluid" src="images/thumbnail/twizz.webp" alt="" />
+          <div class="card-body">
+            <div>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              <span>(5041)</span>
+            </div>
+            <h4>Twizzlers Pull & Peel: Cherry</h4>
+            <small class="mb-5">Twizzler</small>
+            <p class="text-decoration-line-through text-secondary">$20</p>
+            <p class="">$10</p>
+            <div class="d-flex justify-content-center gap-2">
+              <button class="btn btn-primary" id="liveToastBtn2">Add to Cart</button>
+              <button class="btn btn-secondary" id="off2">Buy Now</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"
+              ><i class="bi bi-arrow-up-right"></i>Ranked #<span class="text-danger">3</span>: Purchased by 3000+
+              users</small
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="img-fluid" src="images/thumbnail/3201502-nintendo-switch-review-promo.jpg" alt="" />
+          <div class="card-body">
+            <div>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              <span>(5041)</span>
+            </div>
+            <h4>Nintendo Switch</h4>
+            <small class="mb-5">Nintendo</small>
+            <p class="text-decoration-line-through text-secondary">$20</p>
+            <p class="">$10</p>
+            <div class="d-flex justify-content-center gap-2">
+              <button class="btn btn-primary" id="liveToastBtn2">Add to Cart</button>
+              <button class="btn btn-secondary" id="off2">Buy Now</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"
+              ><i class="bi bi-arrow-up-right"></i>Ranked #<span class="text-danger">3</span>: Purchased by 3000+
+              users</small
+            >
+          </div>
+        </div>
+
+        <div class="card" id="cardcontain">
+          <img class="img-fluid" src="images/Macbook-15-2023.webp" alt="" />
+          <div class="card-body">
+            <div>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              <span>(5041)</span>
+            </div>
+            <h4>Apple MacBook Air M2</h4>
+            <small class="mb-5">Ubisoft Entertainment</small>
+            <p class="text-decoration-line-through text-secondary">$20</p>
+            <p class="">$10</p>
+            <div class="d-flex justify-content-center gap-2">
+              <button class="btn btn-primary" id="liveToastBtn3">Add to Cart</button>
+              <button class="btn btn-secondary" id="off3">Buy Now</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"
+              ><i class="bi bi-arrow-up-right"></i>Ranked #<span class="text-primary">4</span> Purchased by 5000+
+              users</small
+            >
+          </div>
+        </div>
+
+        <div class="card" id="cardcontain1">
+          <img class="img-fluid" src="images/61BdjH1GBUL.jpg" alt="" />
+          <div class="card-body">
+            <div>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              <span>(5041)</span>
+            </div>
+            <h4>Poppi</h4>
+            <small class="mb-5">Ubisoft Entertainment</small>
+            <p class="text-decoration-line-through text-secondary">$20</p>
+            <p class="">$10</p>
+            <div class="d-flex justify-content-center gap-2">
+              <button class="btn btn-primary" id="liveToastBtn4">Add to Cart</button>
+              <button class="btn btn-secondary" id="off4">Buy Now</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"
+              ><i class="bi bi-arrow-up-right"></i>Ranked <span class="text-warning">5</span>: Purchased by 4000+
+              users</small
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="img-fluid" src="images/107381703-1709558363090-macbook-air-2024.jpeg" alt="" />
+          <div class="card-body">
+            <div>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              <span>(5041)</span>
+            </div>
+            <h4>MacBook Pro M3</h4>
+            <small class="mb-5">Apple</small>
+            <p class="text-decoration-line-through text-secondary">$20</p>
+            <p class="">$10</p>
+            <div class="d-flex justify-content-center gap-2">
+              <button class="btn btn-primary" id="liveToastBtn5">Add to Cart</button>
+              <button class="btn btn-secondary" id="off5">Buy Now</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"
+              ><i class="bi bi-arrow-up-right"></i>Ranked <span class="text-danger">6</span>: Purchased by 3000+
+              users</small
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="toast-container position-fixed top-0 end-0">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <i class="bi bi-check-lg bs-success" id="colorchange"></i>
+            <strong class="me-auto">Bootstrap</strong>
+            <small>Just Now</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">Item sucessfully added to Cart</div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-black mt-auto py-3">
+      <div class="container">
+        <div class="row d-flex justify-content-evenly w-100">
+          <div class="col">
+            <h5 class="border-bottom text-white">Company</h5>
+            <ul class="text-white list-unstyled">
+              <li>About Us</li>
+              <li>Our Services</li>
+              <li>Privacy Policy</li>
+              <li>Membership Program</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5 class="border-bottom text-white">Get Help</h5>
+            <ul class="text-white list-unstyled">
+              <li>FAQs</li>
+              <li>Shipping</li>
+              <li>Return Policy</li>
+              <li>Payment options</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5 class="border-bottom text-white">The Shop</h5>
+            <ul class="text-white list-unstyled">
+              <li>Games</li>
+              <li>Tech</li>
+              <li>Clothes</li>
+              <li>Snacks</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5 class="border-bottom text-white">Follow Us</h5>
+            <ul class="text-white d-flex justify-content-evenly list-unstyled">
+              <li>
+                <i class="bi bi-google h4"></i>
+              </li>
+              <li>
+                <i class="bi bi-linkedin h4"></i>
+              </li>
+              <li>
+                <i class="bi bi-instagram h4"></i>
+              </li>
+              <li>
+                <i class="bi bi-twitter h4"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container text-center">
+          <small class="text-white-50">&copy;Lorem Ipsum</small>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

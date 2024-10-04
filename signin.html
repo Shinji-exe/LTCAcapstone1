@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <script defer src="scripts/script.js"></script>
+    <title>Sign In</title>
+  </head>
+  <body>
+    <header class="py-3 border-bottom">
+      <nav class="d-flex container-fluid justify-content-between align-content-center">
+        <a href="index.html">
+          <img src="./images/logoipsum-220.svg" alt="" />
+        </a>
+
+        <div class="input-group w-50">
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Search for Product"
+            aria-label="Search for Product"
+            aria-describedby="basic-addon2"
+          />
+          <span class="input-group-text" id="basic-addon2">
+            <i class="bi bi-search"></i>
+          </span>
+        </div>
+
+        <ul class="navbar-nav sidebars">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu text-center">
+              <li><a class="dropdown-item" href="index.html">Home</a></li>
+              <li><a class="dropdown-item" href="signin.html">Sign In</a></li>
+              <li><a class="dropdown-item" href="product.html">Shop</a></li>
+              <li>
+                <a class="dropdown-item" href="cart.html"><i class="bi bi-cart"></i></a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="profile.html"><i class="bi bi-person-circle"></i></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="nav nav-underline align-content-center regular">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <!-- <li class="nav-item">
+                  <a class="nav-link" href="signup.html">Sign Up</a>
+                </li> -->
+          <li class="nav-item">
+            <a class="nav-link active" href="signin.html">Sign In</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Shop</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">
+              <i class="bi bi-cart rounded-5"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="">
+      <div class="container min-vh-100 d-flex justify-content-center align-items-center border-5">
+        <form class="border border-primary-subtle p-4 rounded-5" id="forms">
+          <div>
+            <img src="./images/logoipsum-220.svg" class="mb-2" alt="" />
+          </div>
+          <div class="form-group mb-3">
+            <h2>Sign In</h2>
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required />
+            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+          </div>
+          <div class="form-group mb-3">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required />
+            <div class="d-flex justify-content-between mt-2">
+              <i class="bi bi-eye-slash align" id="hide-show">Show Password</i>
+              <a href="forgot.html" class="">Forgot Password?</a>
+            </div>
+            <!-- <i class="bi bi-eye-slash align" id="hide-show">Show Password</i>
+                  <a href="forgot.html" class="">Forgot Password?</a> -->
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+          </div>
+          <button type="submit" class="btn btn-primary rounded-5 mt-2 w-100">Sign In</button>
+          <hr class="" />
+
+          <div class="d-flex justify-content-center buttonFlip gap-2">
+            <div class="">
+              <button type="submit" class="btn btn-primary rounded-5 w-100">
+                <i class="bi bi-google pe-1"></i>
+                Sign in with Google
+              </button>
+            </div>
+
+            <div class="">
+              <button type="submit" class="btn btn-secondary rounded-5 w-100">
+                <i class="bi bi-apple pe-1"></i>
+                Sign in with Apple ID
+              </button>
+            </div>
+          </div>
+
+          <div class="my-2 text-center">
+            <small>Dont have an account with us? <a href="signup.html">Sign Up</a></small>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

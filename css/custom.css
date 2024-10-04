@@ -1,0 +1,164 @@
+.c-item {
+  height: 42rem;
+}
+
+.c-image {
+  height: 42rem;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+
+.detailed{
+  
+}
+
+.scal{
+   
+}
+
+.sidebars{
+  display: none;
+}
+
+#colorchange{
+  color: green;
+}
+
+.c-image1{
+            
+   
+    
+  
+}
+
+.angles {
+  min-height: 100%;
+}
+.c-video {
+}
+
+.toast {
+}
+
+
+.card{
+  width: 18rem;
+  overflow: hidden;
+  /* transition: all 0.4s ease-in-out; */
+}
+
+.card img{
+    transition: all 0.4s ease-in-out;
+}
+
+.card img:hover{
+  transform: scale(1.15);
+}
+
+
+.spinner-wrapper {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease-out;
+}
+
+.spinner-border {
+  width: 10rem;
+  height: 10rem;
+}
+
+#forms {
+  width: 30rem;
+}
+
+
+@media (max-width: 991px){
+    .btn{
+        
+        margin-bottom: 2px;
+    }
+    .c-image1{
+            
+  
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+        /* filter: brightness(0.7); */
+      
+    }
+}
+
+@media (max-width: 901px){
+    .compo{
+        flex-direction: column;
+      }
+      .vidsplay{
+        flex-direction: column;
+      }
+}
+
+@media (max-width: 785px){
+   
+
+          .compo{
+            flex-direction: column;
+          }
+
+          .vidsplay{
+            flex-direction: column;
+          }
+
+          .press{
+
+          }
+
+          .c-image1{
+            
+         
+            background-position: center;
+            background-size: cover;
+            object-fit: cover;
+            filter: brightness(0.7);
+        }
+
+        #formal{
+          flex-direction: column-reverse;
+        }
+        
+}
+
+@media (max-width: 736px){
+  .regular{
+    display: none;
+  }
+  .sidebars{
+    display: block;
+  }
+}
+
+@media (max-width: 505px) {
+  #navs {
+    display: none;
+  }
+
+  .turn{
+flex-direction: column;
+  }
+}
+
+@media (max-width: 475px){
+  .buttonFlip{
+    flex-direction: column;
+    justify-content: center;
+  }
+}
