@@ -144,6 +144,10 @@
   .sidebars{
     display: block;
   }
+
+  .centering{
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 505px) {
